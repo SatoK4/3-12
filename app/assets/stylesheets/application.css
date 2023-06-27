@@ -25,6 +25,7 @@ body {
   font-size: 13px;
   line-height: 18px;
   margin: 33px;
+  color: #333333;
 }
 
 p {
@@ -36,10 +37,6 @@ p {
 }
 
 h2 {
-  margin: 33px 0;
-  line-height: 18px:
+  margin: 16.185px 0;
 }
 
-.new_text {
-  margin: 0;
-}
