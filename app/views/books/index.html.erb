@@ -18,7 +18,8 @@
       <td><%= book.body %></td>
       <td>
         <%= link_to "Show", book_path(book.id) %>
-        <!--edit destroyのリンクを作成する -->
+        <%= link_to "Edit", edit_book_path(book.id) %>
+        <%= link_to "Destroy", book_path(book.id),method: :delete, "data-confirm"  => "Are you sure?" %>
       </td>
     <% end %>
     </tr>
